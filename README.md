@@ -4,7 +4,7 @@ A Deep Neural Network approach for estimating precipitation fields in Earth
 System Models.
 
 ## To install package
-```pip install git+https://github.com/webert3/climate-emulator```
+```pip install git+https://github.com/hutchresearch/deep_climate_emulator```
 
 ## Training models
 See ```trainer.py``` for an example.
