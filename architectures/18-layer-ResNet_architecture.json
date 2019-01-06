@@ -1,0 +1,202 @@
+{
+    "layers" : [
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 64,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 64,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 64,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 64,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 128,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 128,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 128,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 128,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 256,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 256,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 256,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 256,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 512,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 512,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 512,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 512,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        },
+        {
+            "shortcut" : 2,
+            "projection" : 0,
+            "layers" : [
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 1,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                },
+                {
+                    "type" : "conv",
+                    "kernel_width" : 3,
+                    "filters" : 1,
+                    "stride" : 1,
+                    "padding" : "SAME",
+                    "activation" : "relu"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "epochs" : 89,
+    "lr" : 0.06907177473013913,
+    "truncated_normal_stddev" : 0.016134691682920446,
+    "window" : 60,
+    "decay_func" : "linear",
+    "use_area_weighted_obj" : 0,
+    "use_scheduled_sampling" : 1
+}

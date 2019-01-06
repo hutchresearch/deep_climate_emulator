@@ -1,0 +1,2 @@
+include emulator/data/*.csv
+include emulator/pretrained_models/*.pb
