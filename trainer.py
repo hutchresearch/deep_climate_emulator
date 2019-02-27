@@ -28,13 +28,11 @@ if __name__ == "__main__":
                         help="NetCDF file containing precipitation data.")
     parser.add_argument("--architecture",
                         type=str,
-                        required=True,
                         default="architectures/18-layer-ResNet_architecture"
                                 ".json",
                         help="JSON file defining the DNN architecture.")
     parser.add_argument("--hyperparameters",
                         type=str,
-                        required=True,
                         default="architectures/18-layer-ResNet_hyperparameters"
                                 ".json",
                         help="JSON file defining the hyperparameter "
