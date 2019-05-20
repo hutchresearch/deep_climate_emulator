@@ -7,14 +7,53 @@ System Models.
 ```pip install git+https://github.com/hutchresearch/deep_climate_emulator```
 
 ## Training models
-See ```trainer.py``` for an example.
+We provide ```trainer.py``` as an example script that utilizes our residual network training 
+package. To train a model using the same architecture and hyperparameters used in our 18-Layer 
+Residual Network, run the following:
+
+```
+# Pull scripts to local machine, if not already available.
+git clone https://github.com/hutchresearch/deep_climate_emulator 
+
+# Install the "deep_climate_emulator" package, if not already installed.
+pip install git+https://github.com/hutchresearch/deep_climate_emulator
+
+# Navigate to "scripts" directory and run "trainer.py".
+cd deep_climate_emulator/scripts
+python trainer.py \
+--data <PATH_TO_PRECIPITATION_DATA> \
+--architecture ../configs/18-layer-ResNet_architecture.json \
+--hyperparameters ../configs/18-layer-ResNet_hyperparameters.json
+```
+
+_Note:_ Our package was developed using Python 3. Python 2 compatibility is not 
+guaranteed.
 
 ## Using pretrained models to generate precipitation forecasts
-See ```inference.py``` for an example. 
+We provide ```inference.py``` as an example script for generating predictions with 
+a pretrained model. To generate predictions with our 18-Layer Residual Network run 
+the following:
+
+```
+# Pull scripts to local machine, if not already available.
+git clone https://github.com/hutchresearch/deep_climate_emulator 
+
+# Install the "deep_climate_emulator" package, if not already installed.
+pip install git+https://github.com/hutchresearch/deep_climate_emulator
+
+# Navigate to "scripts" directory and run "inference.py".
+cd deep_climate_emulator/scripts
+python inference.py \
+--data <PATH_TO_PRECIPITATION_DATA> \
+--window_size 60 \
+--num_forecasts 120 \
+--num_preforecasts 30 \
+--outfile <OUTPUT_FILENAME>
+```
 
 This package comes bundled with a pretrained 18-layer Residual Network (window
 size = 60), and this will be loaded by default if TensorFlow checkpoint files
-are not provided.
+are not provided with the `--model` flag.
 
 ## GPU support
 
